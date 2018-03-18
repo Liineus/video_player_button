@@ -1,0 +1,369 @@
+﻿.body {
+	margin:0px;
+	padding: 0px auto;
+}
+
+
+.eko_background {
+	margin: 0px;
+	text-align: center;
+	height: 200px;
+	width: 100%;
+	background-color: #cccc99;
+	position: relative; 
+	z-index: 1;
+}
+
+.eko_tlo1 {
+	padding: 0px auto;
+	margin: -150px auto auto auto;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	height: 100px;
+	width: 150px;
+	background-color:#0099ff;
+	opacity: 1.0;
+	position: relative; 
+	z-index: 2;
+}
+
+.eko_tlo2 {
+	padding: 0px 0px 0px 0px;
+	margin: -50px auto auto auto;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	height: 50px;
+	width: 150px;
+	background-color:#66cc66;
+	position: relative;
+	z-index: 3;
+}
+
+/*.eko_button1 {
+	padding: 0px 0px 0px 0px;
+	margin: -75px auto auto auto;
+	height: 0px;
+	width: 0px;
+	border-left: 50px solid #FFFFF0;
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-stoke: #66cc66;
+	position: relative;
+	z-index: 3;
+	transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.eko_button1:hover, .eko_button1:active {
+	padding: 0px 0px 0px 0px;
+	margin: -75px auto auto auto;
+	height: 0px;
+	width: 0px;
+	border-left: 50px solid #333300;
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-stoke: #66cc66;
+	position: relative;
+	z-index: 3;
+	transition: all 0.5s ease;
+    cursor: pointer;
+}*/
+	
+.eko_button2 {
+	text-align: center;
+	max-width:150px;
+	margin: -250px auto auto auto; 
+	position: relative;
+	z-index: 4;
+	cursor: pointer;
+	fill:#FFFFF0;
+}
+
+.eko_button2:hover {
+	text-align: center;
+	max-width:150px;
+	margin: -250px auto auto auto; 
+	position: relative;
+	z-index: 4;
+	cursor: pointer;
+	transition: all 1s ease;
+	fill:#333300;
+}
+
+.eko_button2:active {
+	text-align: center;
+	max-width:150px;
+	margin: -250px auto auto auto; 
+	position: relative;
+	z-index: 4;
+	cursor: pointer;
+	/*ZAPYTAĆ JAK USTAWIĆ PARAMETR TRANSITION TAK, BY BYŁ ON NA STAŁE, A NIE TYLKO PRZEZ OKREŚLONY CZAS*/
+	fill:#333300;
+}
+
+.eko_button3 {
+	margin: -100px auto;
+	text-align: center;
+	max-width: 150px;
+	position: relative;
+	z-index: 5;
+	cursor: pointer;
+}
+
+.eko_button3:hover {
+	opacity: 0.0;
+	transition: 1s ease;
+}
+
+/*.eko_button_stroke {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #333300;
+	position: relative;
+	z-index: 3;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	margin: -350.5px auto;
+}*/
+
+
+.korpo_background {
+	margin: 150px auto auto auto;
+	text-align: center;
+	height: 200px;
+	background-color: #B3A34B;
+	position: relative; 
+	z-index: 1;
+	width: 100%;
+}
+
+.korpo_button_background1 {
+	padding: 0px 0px 0px 0px;
+	margin: -150px auto auto auto;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	height: 100px;
+	width: 150px;
+	background-color: #1F38A6;
+	opacity: 0.6;
+	position: relative; 
+	z-index: 2;
+}
+
+.korpo_button_stroke1 {
+	stroke-width: 10px;
+}
+
+.korpo_button_stroke2 {
+	stroke-width: 5px;
+}
+
+.korpo_button_stroke3 {
+	stroke-width: 3px;
+}
+
+.korpo_button_path1 {
+	margin: -100px auto auto auto; 
+	max-width: 150px;
+	cursor: pointer;
+	position: relative;
+	z-index: 4;
+	fill: none;
+	stroke:#38AB4F;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+}
+
+.korpo_button_path1:hover {
+	stroke-dashoffset: 0;
+	-webkit-animation: print 5s linear forwards;
+	animation: print 5s linear forwards;
+	transition: all 1s ease;
+	stroke: #38AB4F;
+}
+
+.korpo_button_path1:active {
+	stroke: #38AB4F;
+	transition: all 1s ease;
+}
+
+.wykres {
+	stroke: #38AB4F;
+}
+
+
+
+.korpo_button_background2 {
+
+	padding: 0px 0px 0px 0px;
+	margin: -100px auto auto auto;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	height: 100px;
+	width: 150px;
+	background-color: #586C8C;
+	opacity: 1.0;
+	position: relative; 
+	z-index: 5;
+	cursor: pointer;	
+}
+
+.korpo_button_background2:hover {
+	opacity: 0.0;
+	transition: all 1s ease;
+}
+
+
+
+
+.zespol_background {
+	position: relative; 
+	z-index: 1;
+	width: 100%;
+	height: 200px;
+	background-color: #E882D5;
+	margin: 50px 0px 0px -0px;
+}
+
+.zespol_button {
+	position: relative; 
+	z-index: 2;
+	margin: -175px auto auto auto;
+	text-align: center;
+	}
+	
+.zespol_button {
+	position: relative;
+	max-width: 150px;
+	z-index: 3;
+	cursor: pointer;
+}
+
+.zespol_button:hover {
+	fill: #16C7B5;
+	transition: all 1s ease;
+}
+
+
+.bajka_background {
+	margin: 25px auto;
+	width: 100%;
+	height: 200px;
+	background-color: #8295E8;
+	position: relative;
+	z-index: 1;
+}
+
+.bajka_button {
+	margin: -180px auto;
+	position: relative;
+	text-align: center;
+	z-index: 2;
+}
+
+.bajka_path_1_2 {
+	stroke-width: 3px;
+}
+
+.bajka_button2 {
+	cursor: pointer;
+	opacity: 1.0;
+	z-index: 2;
+	width: 110px;
+	margin: -110px auto;
+}
+
+.bajka_button2:hover {
+	opacity: 0.0;
+	transition: all 1s ease;
+}
+
+
+.lotto_background {
+	margin: -155px auto;
+	width: 100%;
+	height: 200px;
+	background-color: #E0E843;
+	position: relative;
+	z-index: 1;
+}
+
+.lotto_button_litery {
+	margin: 5px auto;
+	max-width: 168px;
+	position: relative;
+	z-index: 3;
+}
+
+.lotto_button_cyfry {
+	opacity: 0.0;
+	margin: -40px auto;
+	max-width: 168px;
+	cursor: pointer;
+	position: relative;
+	z-index: 4;
+}
+
+.lotto_button_cyfry:hover {
+	opacity: 1.0;
+	transition: all 1s ease;
+}
+
+
+.sanatorium_background {
+	height: 200px;
+	margin: 155px auto;
+	background-color: #3C0161;
+	position: relative;
+	z-index: 1;
+}
+
+.sanatorium_button1 {
+	position: relative;
+	z-index: 2;
+	margin: -305px auto;
+	cursor: pointer;	
+}
+
+.sanatorium_button2 {
+	position: relative;
+	z-index: 2;
+	margin: 205px auto;
+	cursor: pointer;	
+}
+
+.sanatorium_button2:hover {
+	transition: all 1s ease;
+	opacity: 0.0;
+}
+
+
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
